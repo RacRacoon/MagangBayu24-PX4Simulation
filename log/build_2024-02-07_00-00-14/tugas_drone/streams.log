@@ -1,0 +1,72 @@
+[1.027s] Invoking command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12
+[1.268s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.278s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.279s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.279s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.279s]   the cmake_policy command to set the policy and suppress this warning.
+[1.279s] 
+[1.280s] Call Stack (most recent call first):
+[1.280s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.280s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.282s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.285s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.287s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.288s]   CMakeLists.txt:19 (find_package)
+[1.288s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.288s] [0m
+[1.432s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.541s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[2.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.669s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.444s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.454s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.719s] -- Found px4_msgs: 2.0.1 (/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/share/px4_msgs/cmake)
+[3.811s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.019s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.028s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.671s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.993s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.424s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.430s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.430s] -- Configured cppcheck include dirs: 
+[5.431s] -- Configured cppcheck exclude dirs and/or files: 
+[5.441s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.442s] -- Configured cpplint exclude dirs and/or files: 
+[5.445s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.447s] -- Added test 'lint_cmake' to check CMake code style
+[5.450s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.458s] -- Added test 'uncrustify' to check C / C++ code style
+[5.459s] -- Configured uncrustify additional arguments: 
+[5.460s] -- Added test 'xmllint' to check XML markup files
+[5.466s] -- Configuring done (4.2s)
+[5.561s] -- Generating done (0.1s)
+[5.568s] -- Build files have been written to: /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone
+[5.661s] [ 16%] [32mBuilding CXX object CMakeFiles/jalan_bintang.dir/src/bintang.cpp.o[0m
+[5.682s] [ 83%] Built target jalan_lingkaran
+[5.683s] [ 83%] Built target jalan_kotak
+[27.049s] [100%] [32m[1mLinking CXX executable jalan_bintang[0m
+[28.204s] [100%] Built target jalan_bintang
+[28.260s] Invoked command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone' returned '0': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12
+[28.721s] Invoking command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --install /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone
+[28.861s] -- Install configuration: ""
+[28.864s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_lingkaran
+[28.864s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_kotak
+[28.865s] -- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_bintang
+[28.868s] -- Set non-toolchain portion of runtime path of "/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_bintang" to ""
+[28.869s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/package_run_dependencies/tugas_drone
+[28.870s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/parent_prefix_path/tugas_drone
+[28.871s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/ament_prefix_path.sh
+[28.872s] -- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/ament_prefix_path.dsv
+[28.872s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/path.sh
+[28.873s] -- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/path.dsv
+[28.873s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.bash
+[28.873s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.sh
+[28.873s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.zsh
+[28.874s] -- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.dsv
+[28.874s] -- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.dsv
+[28.874s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/packages/tugas_drone
+[28.874s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/cmake/tugas_droneConfig.cmake
+[28.875s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/cmake/tugas_droneConfig-version.cmake
+[28.875s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.xml
+[28.909s] Invoked command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone' returned '0': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --install /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone

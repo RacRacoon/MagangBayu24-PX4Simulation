@@ -1,0 +1,27 @@
+[0.582s] Invoking command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12
+[0.767s] [ 50%] Built target jalan_lingkaran
+[0.773s] [ 75%] [32mBuilding CXX object CMakeFiles/jalan_kotak.dir/src/kotak.cpp.o[0m
+[18.317s] [100%] [32m[1mLinking CXX executable jalan_kotak[0m
+[19.565s] [100%] Built target jalan_kotak
+[19.617s] Invoked command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone' returned '0': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12
+[19.983s] Invoking command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --install /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone
+[20.094s] -- Install configuration: ""
+[20.094s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_lingkaran
+[20.094s] -- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_kotak
+[20.099s] -- Set non-toolchain portion of runtime path of "/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_kotak" to ""
+[20.099s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/package_run_dependencies/tugas_drone
+[20.100s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/parent_prefix_path/tugas_drone
+[20.100s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/ament_prefix_path.sh
+[20.100s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/ament_prefix_path.dsv
+[20.100s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/path.sh
+[20.100s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/path.dsv
+[20.101s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.bash
+[20.101s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.sh
+[20.101s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.zsh
+[20.101s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.dsv
+[20.101s] -- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.dsv
+[20.101s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/packages/tugas_drone
+[20.101s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/cmake/tugas_droneConfig.cmake
+[20.101s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/cmake/tugas_droneConfig-version.cmake
+[20.101s] -- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.xml
+[20.141s] Invoked command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone' returned '0': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --install /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone

@@ -1,7 +1,7 @@
 # Magang Bayucaraka 2024 - PX4 Simulation
 
-Nama    : \
-NRP     : 
+Nama    : Sultan Syafiq Rakan\
+NRP     : 5024231009
 
 ## Cara Pengumpulan
 - Fork repositori ini

@@ -1,0 +1,10 @@
+[0.168s] Invoking command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12
+[0.201s] [ 25%] [32m[1mLinking CXX executable jalan_kotak[0m
+[0.204s] [ 75%] Built target jalan_lingkaran
+[0.238s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.238s] (.text+0x24): undefined reference to `main'
+[0.238s] collect2: error: ld returned 1 exit status
+[0.238s] make[2]: *** [CMakeFiles/jalan_kotak.dir/build.make:149: jalan_kotak] Error 1
+[0.238s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/jalan_kotak.dir/all] Error 2
+[0.238s] make: *** [Makefile:146: all] Error 2
+[0.242s] Invoked command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone' returned '2': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12

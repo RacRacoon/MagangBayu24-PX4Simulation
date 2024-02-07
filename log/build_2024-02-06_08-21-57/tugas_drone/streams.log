@@ -1,0 +1,10 @@
+[0.108s] Invoking command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone': AMENT_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12
+[0.140s] [ 25%] [32m[1mLinking CXX executable jalan_kotak[0m
+[0.142s] [ 75%] Built target jalan_lingkaran
+[0.170s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.170s] (.text+0x24): undefined reference to `main'
+[0.170s] collect2: error: ld returned 1 exit status
+[0.171s] make[2]: *** [CMakeFiles/jalan_kotak.dir/build.make:149: jalan_kotak] Error 1
+[0.171s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/jalan_kotak.dir/all] Error 2
+[0.171s] make: *** [Makefile:146: all] Error 2
+[0.176s] Invoked command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone' returned '2': AMENT_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12

@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.003001] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.003484] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.003610] (tugas_drone) JobQueued: {'identifier': 'tugas_drone', 'dependencies': OrderedDict([('px4_msgs', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs')])}
+[0.003688] (tugas_drone) JobStarted: {'identifier': 'tugas_drone'}
+[0.096438] (-) TimerEvent: {}
+[0.199225] (-) TimerEvent: {}
+[0.300180] (-) TimerEvent: {}
+[0.401213] (-) TimerEvent: {}
+[0.505384] (-) TimerEvent: {}
+[0.611265] (-) TimerEvent: {}
+[0.636755] (tugas_drone) JobProgress: {'identifier': 'tugas_drone', 'progress': 'cmake'}
+[0.640149] (tugas_drone) JobProgress: {'identifier': 'tugas_drone', 'progress': 'build'}
+[0.641684] (tugas_drone) Command: {'cmd': ['/home/rakan/.local/bin/cmake', '--build', '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone', '--', '-j12', '-l12'], 'cwd': '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakan'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1838'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rakan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b3c12d7448bc749c0ac7925865c1e9e3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rakan'), ('JOURNAL_STREAM', '8:33427'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rakan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/rakan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shinigami:@/tmp/.ICE-unix/1875,unix/Shinigami:/tmp/.ICE-unix/1875'), ('INVOCATION_ID', '0135d8eba3b9465a8ee7b8bfea483c7b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9857342c_af27_4d74_9136_3ac027d58bc2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b3c12d7448bc749c0ac7925865c1e9e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy')]), 'shell': False}
+[0.711290] (-) TimerEvent: {}
+[0.813070] (-) TimerEvent: {}
+[0.858897] (tugas_drone) StdoutLine: {'line': b'[ 50%] Built target jalan_lingkaran\n'}
+[0.872751] (tugas_drone) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/jalan_kotak.dir/src/kotak.cpp.o\x1b[0m\n'}
+[0.913488] (-) TimerEvent: {}
+[1.014474] (-) TimerEvent: {}
+[1.115789] (-) TimerEvent: {}
+[1.216894] (-) TimerEvent: {}
+[1.318501] (-) TimerEvent: {}
+[1.420048] (-) TimerEvent: {}
+[1.522029] (-) TimerEvent: {}
+[1.625070] (-) TimerEvent: {}
+[1.726069] (-) TimerEvent: {}
+[1.827635] (-) TimerEvent: {}
+[1.930043] (-) TimerEvent: {}
+[2.031109] (-) TimerEvent: {}
+[2.132333] (-) TimerEvent: {}
+[2.234898] (-) TimerEvent: {}
+[2.336561] (-) TimerEvent: {}
+[2.438752] (-) TimerEvent: {}
+[2.540473] (-) TimerEvent: {}
+[2.642284] (-) TimerEvent: {}
+[2.743647] (-) TimerEvent: {}
+[2.846028] (-) TimerEvent: {}
+[2.948469] (-) TimerEvent: {}
+[3.051576] (-) TimerEvent: {}
+[3.155058] (-) TimerEvent: {}
+[3.255780] (-) TimerEvent: {}
+[3.356483] (-) TimerEvent: {}
+[3.458474] (-) TimerEvent: {}
+[3.559341] (-) TimerEvent: {}
+[3.661110] (-) TimerEvent: {}
+[3.762488] (-) TimerEvent: {}
+[3.867295] (-) TimerEvent: {}
+[3.968456] (-) TimerEvent: {}
+[4.069470] (-) TimerEvent: {}
+[4.170660] (-) TimerEvent: {}
+[4.271932] (-) TimerEvent: {}
+[4.373066] (-) TimerEvent: {}
+[4.474196] (-) TimerEvent: {}
+[4.576314] (-) TimerEvent: {}
+[4.678601] (-) TimerEvent: {}
+[4.779804] (-) TimerEvent: {}
+[4.881391] (-) TimerEvent: {}
+[4.982621] (-) TimerEvent: {}
+[5.083296] (-) TimerEvent: {}
+[5.185694] (-) TimerEvent: {}
+[5.286827] (-) TimerEvent: {}
+[5.388052] (-) TimerEvent: {}
+[5.488711] (-) TimerEvent: {}
+[5.590267] (-) TimerEvent: {}
+[5.692152] (-) TimerEvent: {}
+[5.793481] (-) TimerEvent: {}
+[5.894503] (-) TimerEvent: {}
+[5.996373] (-) TimerEvent: {}
+[6.098784] (-) TimerEvent: {}
+[6.200204] (-) TimerEvent: {}
+[6.301920] (-) TimerEvent: {}
+[6.402896] (-) TimerEvent: {}
+[6.504002] (-) TimerEvent: {}
+[6.605636] (-) TimerEvent: {}
+[6.708095] (-) TimerEvent: {}
+[6.808927] (-) TimerEvent: {}
+[6.909717] (-) TimerEvent: {}
+[7.010828] (-) TimerEvent: {}
+[7.111792] (-) TimerEvent: {}
+[7.212922] (-) TimerEvent: {}
+[7.314089] (-) TimerEvent: {}
+[7.414855] (-) TimerEvent: {}
+[7.515821] (-) TimerEvent: {}
+[7.619176] (-) TimerEvent: {}
+[7.720292] (-) TimerEvent: {}
+[7.821806] (-) TimerEvent: {}
+[7.923172] (-) TimerEvent: {}
+[8.024093] (-) TimerEvent: {}
+[8.126256] (-) TimerEvent: {}
+[8.227633] (-) TimerEvent: {}
+[8.329077] (-) TimerEvent: {}
+[8.430528] (-) TimerEvent: {}
+[8.531916] (-) TimerEvent: {}
+[8.634617] (-) TimerEvent: {}
+[8.736179] (-) TimerEvent: {}
+[8.838256] (-) TimerEvent: {}
+[8.939729] (-) TimerEvent: {}
+[9.040972] (-) TimerEvent: {}
+[9.142623] (-) TimerEvent: {}
+[9.244142] (-) TimerEvent: {}
+[9.345602] (-) TimerEvent: {}
+[9.448356] (-) TimerEvent: {}
+[9.549719] (-) TimerEvent: {}
+[9.652463] (-) TimerEvent: {}
+[9.756153] (-) TimerEvent: {}
+[9.857231] (-) TimerEvent: {}
+[9.959804] (-) TimerEvent: {}
+[10.061754] (-) TimerEvent: {}
+[10.162924] (-) TimerEvent: {}
+[10.264403] (-) TimerEvent: {}
+[10.366876] (-) TimerEvent: {}
+[10.467976] (-) TimerEvent: {}
+[10.569723] (-) TimerEvent: {}
+[10.671092] (-) TimerEvent: {}
+[10.773538] (-) TimerEvent: {}
+[10.874588] (-) TimerEvent: {}
+[10.976037] (-) TimerEvent: {}
+[11.077071] (-) TimerEvent: {}
+[11.179300] (-) TimerEvent: {}
+[11.281494] (-) TimerEvent: {}
+[11.382257] (-) TimerEvent: {}
+[11.483777] (-) TimerEvent: {}
+[11.585083] (-) TimerEvent: {}
+[11.687007] (-) TimerEvent: {}
+[11.789158] (-) TimerEvent: {}
+[11.891561] (-) TimerEvent: {}
+[11.993516] (-) TimerEvent: {}
+[12.096539] (-) TimerEvent: {}
+[12.198625] (-) TimerEvent: {}
+[12.301269] (-) TimerEvent: {}
+[12.402548] (-) TimerEvent: {}
+[12.504268] (-) TimerEvent: {}
+[12.605767] (-) TimerEvent: {}
+[12.706982] (-) TimerEvent: {}
+[12.808663] (-) TimerEvent: {}
+[12.909972] (-) TimerEvent: {}
+[13.011481] (-) TimerEvent: {}
+[13.112827] (-) TimerEvent: {}
+[13.216766] (-) TimerEvent: {}
+[13.318445] (-) TimerEvent: {}
+[13.419581] (-) TimerEvent: {}
+[13.520552] (-) TimerEvent: {}
+[13.622051] (-) TimerEvent: {}
+[13.724785] (-) TimerEvent: {}
+[13.826343] (-) TimerEvent: {}
+[13.928178] (-) TimerEvent: {}
+[14.031600] (-) TimerEvent: {}
+[14.133880] (-) TimerEvent: {}
+[14.235116] (-) TimerEvent: {}
+[14.336618] (-) TimerEvent: {}
+[14.438119] (-) TimerEvent: {}
+[14.540748] (-) TimerEvent: {}
+[14.643198] (-) TimerEvent: {}
+[14.745743] (-) TimerEvent: {}
+[14.847705] (-) TimerEvent: {}
+[14.948761] (-) TimerEvent: {}
+[15.051573] (-) TimerEvent: {}
+[15.155984] (-) TimerEvent: {}
+[15.257302] (-) TimerEvent: {}
+[15.359966] (-) TimerEvent: {}
+[15.461063] (-) TimerEvent: {}
+[15.562164] (-) TimerEvent: {}
+[15.663538] (-) TimerEvent: {}
+[15.765492] (-) TimerEvent: {}
+[15.867414] (-) TimerEvent: {}
+[15.968396] (-) TimerEvent: {}
+[16.069627] (-) TimerEvent: {}
+[16.170594] (-) TimerEvent: {}
+[16.271736] (-) TimerEvent: {}
+[16.373166] (-) TimerEvent: {}
+[16.474478] (-) TimerEvent: {}
+[16.575321] (-) TimerEvent: {}
+[16.676650] (-) TimerEvent: {}
+[16.777705] (-) TimerEvent: {}
+[16.880035] (-) TimerEvent: {}
+[16.981286] (-) TimerEvent: {}
+[17.083318] (-) TimerEvent: {}
+[17.184419] (-) TimerEvent: {}
+[17.286676] (-) TimerEvent: {}
+[17.388871] (-) TimerEvent: {}
+[17.490649] (-) TimerEvent: {}
+[17.591558] (-) TimerEvent: {}
+[17.692830] (-) TimerEvent: {}
+[17.795356] (-) TimerEvent: {}
+[17.897290] (-) TimerEvent: {}
+[17.998174] (-) TimerEvent: {}
+[18.024457] (tugas_drone) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable jalan_kotak\x1b[0m\n'}
+[18.098512] (-) TimerEvent: {}
+[18.199750] (-) TimerEvent: {}
+[18.301206] (-) TimerEvent: {}
+[18.405338] (-) TimerEvent: {}
+[18.506827] (-) TimerEvent: {}
+[18.607499] (-) TimerEvent: {}
+[18.708641] (-) TimerEvent: {}
+[18.809751] (-) TimerEvent: {}
+[18.910537] (-) TimerEvent: {}
+[19.011392] (-) TimerEvent: {}
+[19.112094] (-) TimerEvent: {}
+[19.212738] (-) TimerEvent: {}
+[19.213853] (tugas_drone) StdoutLine: {'line': b'[100%] Built target jalan_kotak\n'}
+[19.272542] (tugas_drone) CommandEnded: {'returncode': 0}
+[19.313088] (-) TimerEvent: {}
+[19.414475] (-) TimerEvent: {}
+[19.485196] (tugas_drone) JobProgress: {'identifier': 'tugas_drone', 'progress': 'install'}
+[19.514572] (-) TimerEvent: {}
+[19.615130] (-) TimerEvent: {}
+[19.632534] (tugas_drone) Command: {'cmd': ['/home/rakan/.local/bin/cmake', '--install', '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone'], 'cwd': '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakan'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1838'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rakan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b3c12d7448bc749c0ac7925865c1e9e3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rakan'), ('JOURNAL_STREAM', '8:33427'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rakan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/rakan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shinigami:@/tmp/.ICE-unix/1875,unix/Shinigami:/tmp/.ICE-unix/1875'), ('INVOCATION_ID', '0135d8eba3b9465a8ee7b8bfea483c7b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9857342c_af27_4d74_9136_3ac027d58bc2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b3c12d7448bc749c0ac7925865c1e9e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy')]), 'shell': False}
+[19.715477] (-) TimerEvent: {}
+[19.753342] (tugas_drone) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.753698] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_lingkaran\n'}
+[19.753816] (tugas_drone) StdoutLine: {'line': b'-- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_kotak\n'}
+[19.759568] (tugas_drone) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_kotak" to ""\n'}
+[19.760471] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/package_run_dependencies/tugas_drone\n'}
+[19.760894] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/parent_prefix_path/tugas_drone\n'}
+[19.761502] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/ament_prefix_path.sh\n'}
+[19.763488] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/ament_prefix_path.dsv\n'}
+[19.765563] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/path.sh\n'}
+[19.768265] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/path.dsv\n'}
+[19.769926] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.bash\n'}
+[19.770553] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.sh\n'}
+[19.770824] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.zsh\n'}
+[19.771049] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.dsv\n'}
+[19.771166] (tugas_drone) StdoutLine: {'line': b'-- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.dsv\n'}
+[19.771287] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/packages/tugas_drone\n'}
+[19.771397] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/cmake/tugas_droneConfig.cmake\n'}
+[19.771548] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/cmake/tugas_droneConfig-version.cmake\n'}
+[19.771669] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.xml\n'}
+[19.803271] (tugas_drone) CommandEnded: {'returncode': 0}
+[19.816400] (-) TimerEvent: {}
+[19.916758] (-) TimerEvent: {}
+[20.018417] (-) TimerEvent: {}
+[20.120881] (-) TimerEvent: {}
+[20.222065] (-) TimerEvent: {}
+[20.322688] (-) TimerEvent: {}
+[20.423867] (-) TimerEvent: {}
+[20.525412] (-) TimerEvent: {}
+[20.632900] (-) TimerEvent: {}
+[20.736021] (-) TimerEvent: {}
+[20.838073] (-) TimerEvent: {}
+[20.941008] (-) TimerEvent: {}
+[21.041907] (-) TimerEvent: {}
+[21.125013] (tugas_drone) JobEnded: {'identifier': 'tugas_drone', 'rc': 0}
+[21.127017] (-) EventReactorShutdown: {}

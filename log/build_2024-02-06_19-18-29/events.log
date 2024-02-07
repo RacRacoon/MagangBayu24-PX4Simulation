@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000229] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000248] (tugas_drone) JobQueued: {'identifier': 'tugas_drone', 'dependencies': OrderedDict([('px4_msgs', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs')])}
+[0.000409] (tugas_drone) JobStarted: {'identifier': 'tugas_drone'}
+[0.099889] (-) TimerEvent: {}
+[0.151114] (tugas_drone) JobProgress: {'identifier': 'tugas_drone', 'progress': 'cmake'}
+[0.153048] (tugas_drone) JobProgress: {'identifier': 'tugas_drone', 'progress': 'build'}
+[0.154313] (tugas_drone) Command: {'cmd': ['/home/rakan/.local/bin/cmake', '--build', '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone', '--', '-j12', '-l12'], 'cwd': '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakan'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1838'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rakan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b3c12d7448bc749c0ac7925865c1e9e3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rakan'), ('JOURNAL_STREAM', '8:33427'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rakan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/rakan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shinigami:@/tmp/.ICE-unix/1875,unix/Shinigami:/tmp/.ICE-unix/1875'), ('INVOCATION_ID', '0135d8eba3b9465a8ee7b8bfea483c7b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9857342c_af27_4d74_9136_3ac027d58bc2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b3c12d7448bc749c0ac7925865c1e9e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy')]), 'shell': False}
+[0.200024] (-) TimerEvent: {}
+[0.202677] (tugas_drone) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.206729] (tugas_drone) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.206837] (tugas_drone) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.206899] (tugas_drone) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.206956] (tugas_drone) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.207012] (tugas_drone) StderrLine: {'line': b'\n'}
+[0.207066] (tugas_drone) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.207120] (tugas_drone) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.207195] (tugas_drone) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.207254] (tugas_drone) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.207311] (tugas_drone) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.207369] (tugas_drone) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.207425] (tugas_drone) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.207483] (tugas_drone) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.207541] (tugas_drone) StderrLine: {'line': b'\x1b[0m\n'}
+[0.222969] (tugas_drone) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300126] (-) TimerEvent: {}
+[0.388220] (tugas_drone) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.400215] (-) TimerEvent: {}
+[0.411650] (tugas_drone) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.416130] (tugas_drone) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500330] (-) TimerEvent: {}
+[0.527307] (tugas_drone) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.554546] (tugas_drone) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[0.557489] (tugas_drone) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.600409] (-) TimerEvent: {}
+[0.610948] (tugas_drone) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.625253] (tugas_drone) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.669475] (tugas_drone) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.671322] (tugas_drone) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700473] (-) TimerEvent: {}
+[0.784949] (tugas_drone) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.800571] (-) TimerEvent: {}
+[0.847331] (tugas_drone) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.900682] (-) TimerEvent: {}
+[0.904790] (tugas_drone) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.906730] (tugas_drone) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.906894] (tugas_drone) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.906970] (tugas_drone) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.908036] (tugas_drone) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.908115] (tugas_drone) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.908630] (tugas_drone) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.909311] (tugas_drone) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.909893] (tugas_drone) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.911189] (tugas_drone) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.911267] (tugas_drone) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.911754] (tugas_drone) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.913441] (tugas_drone) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.952411] (tugas_drone) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.954698] (tugas_drone) StdoutLine: {'line': b'-- Build files have been written to: /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone\n'}
+[0.969888] (tugas_drone) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/jalan_kotak.dir/src/kotak.cpp.o\x1b[0m\n'}
+[0.983446] (tugas_drone) StdoutLine: {'line': b'[ 75%] Built target jalan_lingkaran\n'}
+[1.000868] (-) TimerEvent: {}
+[1.101385] (-) TimerEvent: {}
+[1.201829] (-) TimerEvent: {}
+[1.302329] (-) TimerEvent: {}
+[1.402600] (-) TimerEvent: {}
+[1.502846] (-) TimerEvent: {}
+[1.603095] (-) TimerEvent: {}
+[1.703345] (-) TimerEvent: {}
+[1.803604] (-) TimerEvent: {}
+[1.903852] (-) TimerEvent: {}
+[2.004094] (-) TimerEvent: {}
+[2.104348] (-) TimerEvent: {}
+[2.204568] (-) TimerEvent: {}
+[2.304809] (-) TimerEvent: {}
+[2.405052] (-) TimerEvent: {}
+[2.505326] (-) TimerEvent: {}
+[2.605736] (-) TimerEvent: {}
+[2.705974] (-) TimerEvent: {}
+[2.806219] (-) TimerEvent: {}
+[2.906462] (-) TimerEvent: {}
+[3.006711] (-) TimerEvent: {}
+[3.106986] (-) TimerEvent: {}
+[3.207215] (-) TimerEvent: {}
+[3.307451] (-) TimerEvent: {}
+[3.407686] (-) TimerEvent: {}
+[3.507920] (-) TimerEvent: {}
+[3.608158] (-) TimerEvent: {}
+[3.708401] (-) TimerEvent: {}
+[3.808635] (-) TimerEvent: {}
+[3.908881] (-) TimerEvent: {}
+[3.969258] (tugas_drone) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable jalan_kotak\x1b[0m\n'}
+[4.009000] (-) TimerEvent: {}
+[4.109257] (-) TimerEvent: {}
+[4.138428] (tugas_drone) StdoutLine: {'line': b'[100%] Built target jalan_kotak\n'}
+[4.143778] (tugas_drone) CommandEnded: {'returncode': 0}
+[4.175291] (tugas_drone) JobProgress: {'identifier': 'tugas_drone', 'progress': 'install'}
+[4.197767] (tugas_drone) Command: {'cmd': ['/home/rakan/.local/bin/cmake', '--install', '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone'], 'cwd': '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakan'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1838'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rakan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b3c12d7448bc749c0ac7925865c1e9e3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rakan'), ('JOURNAL_STREAM', '8:33427'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rakan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/rakan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Shinigami:@/tmp/.ICE-unix/1875,unix/Shinigami:/tmp/.ICE-unix/1875'), ('INVOCATION_ID', '0135d8eba3b9465a8ee7b8bfea483c7b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9857342c_af27_4d74_9136_3ac027d58bc2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b3c12d7448bc749c0ac7925865c1e9e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy')]), 'shell': False}
+[4.209355] (-) TimerEvent: {}
+[4.216178] (tugas_drone) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.217166] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_lingkaran\n'}
+[4.217317] (tugas_drone) StdoutLine: {'line': b'-- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_kotak\n'}
+[4.218022] (tugas_drone) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/tugas_drone/jalan_kotak" to ""\n'}
+[4.218099] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/package_run_dependencies/tugas_drone\n'}
+[4.218227] (tugas_drone) StdoutLine: {'line': b'-- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/parent_prefix_path/tugas_drone\n'}
+[4.218381] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/ament_prefix_path.sh\n'}
+[4.218448] (tugas_drone) StdoutLine: {'line': b'-- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/ament_prefix_path.dsv\n'}
+[4.218567] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/path.sh\n'}
+[4.218678] (tugas_drone) StdoutLine: {'line': b'-- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/environment/path.dsv\n'}
+[4.218749] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.bash\n'}
+[4.218799] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.sh\n'}
+[4.218871] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.zsh\n'}
+[4.218920] (tugas_drone) StdoutLine: {'line': b'-- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/local_setup.dsv\n'}
+[4.218970] (tugas_drone) StdoutLine: {'line': b'-- Installing: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.dsv\n'}
+[4.219020] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/ament_index/resource_index/packages/tugas_drone\n'}
+[4.219087] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/cmake/tugas_droneConfig.cmake\n'}
+[4.219139] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/cmake/tugas_droneConfig-version.cmake\n'}
+[4.219189] (tugas_drone) StdoutLine: {'line': b'-- Up-to-date: /home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.xml\n'}
+[4.222324] (tugas_drone) CommandEnded: {'returncode': 0}
+[4.309992] (-) TimerEvent: {}
+[4.410397] (-) TimerEvent: {}
+[4.511658] (-) TimerEvent: {}
+[4.521896] (tugas_drone) JobEnded: {'identifier': 'tugas_drone', 'rc': 0}
+[4.522468] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/uninstall.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/tugas_drone_uninstall.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/jalan_lingkaran.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/jalan_kotak.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/jalan_bintang.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/test.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/edit_cache.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/rebuild_cache.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/list_install_components.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/install.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/install/local.dir
+/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone/CMakeFiles/install/strip.dir

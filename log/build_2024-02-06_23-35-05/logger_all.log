@@ -1,0 +1,149 @@
+[6.320s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'tugas_drone']
+[6.320s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f88498e2b50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['tugas_drone'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f88498e2b50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f884954f1c0>)
+[6.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.657s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rakan/MagangBayu24-PX4Simulation'
+[6.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.708s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.709s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.709s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.711s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.711s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.711s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.711s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.711s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore'
+[6.712s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore_ament_install'
+[6.712s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_pkg']
+[6.712s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_pkg'
+[6.712s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_meta']
+[6.712s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_meta'
+[6.712s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ros']
+[6.712s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ros'
+[6.717s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore'
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore_ament_install'
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_pkg']
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_pkg'
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_meta']
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_meta'
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ros']
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ros'
+[6.724s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[6.725s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extensions ['ignore', 'ignore_ament_install']
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extension 'ignore'
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extension 'ignore_ament_install'
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extensions ['colcon_pkg']
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extension 'colcon_pkg'
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extensions ['colcon_meta']
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extension 'colcon_meta'
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extensions ['ros']
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(tugas_drone) by extension 'ros'
+[6.729s] DEBUG:colcon.colcon_core.package_identification:Package 'tugas_drone' with type 'ros.ament_cmake' and name 'tugas_drone'
+[6.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.292s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'px4_msgs' in 'px4_msgs'
+[7.292s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'px4_ros_com' in 'px4_ros_com'
+[7.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.747s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rakan/MagangBayu24-PX4Simulation/install
+[7.860s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[7.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.328s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'cmake_args' from command line to 'None'
+[8.328s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'cmake_target' from command line to 'None'
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'cmake_clean_cache' from command line to 'False'
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'cmake_clean_first' from command line to 'False'
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'cmake_force_configure' from command line to 'False'
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'ament_cmake_args' from command line to 'None'
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'catkin_cmake_args' from command line to 'None'
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'tugas_drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.329s] DEBUG:colcon.colcon_core.verb:Building package 'tugas_drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone', 'merge_install': False, 'path': '/home/rakan/MagangBayu24-PX4Simulation/tugas_drone', 'symlink_install': False, 'test_result_base': None}
+[8.530s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.646s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rakan/MagangBayu24-PX4Simulation/tugas_drone' with build type 'ament_cmake'
+[8.646s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rakan/MagangBayu24-PX4Simulation/tugas_drone'
+[8.774s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12
+[25.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone' returned '0': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --build /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone -- -j12 -l12
+[25.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --install /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone
+[25.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugas_drone)
+[25.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone' returned '0': CMAKE_PREFIX_PATH=/home/rakan/MagangBayu24-PX4Simulation/install/px4_msgs:/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone:/opt/ros/foxy /home/rakan/.local/bin/cmake --install /home/rakan/MagangBayu24-PX4Simulation/build/tugas_drone
+[25.782s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone' for CMake module files
+[25.783s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone' for CMake config files
+[25.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugas_drone', 'cmake_prefix_path')
+[25.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/hook/cmake_prefix_path.ps1'
+[25.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/hook/cmake_prefix_path.dsv'
+[25.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/hook/cmake_prefix_path.sh'
+[25.917s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib'
+[25.919s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/bin'
+[25.919s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/pkgconfig/tugas_drone.pc'
+[25.920s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/python3.8/site-packages'
+[25.920s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/bin'
+[26.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.ps1'
+[26.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.dsv'
+[26.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.sh'
+[26.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.bash'
+[26.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.zsh'
+[26.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/colcon-core/packages/tugas_drone)
+[26.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugas_drone)
+[26.451s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone' for CMake module files
+[26.452s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone' for CMake config files
+[26.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugas_drone', 'cmake_prefix_path')
+[26.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/hook/cmake_prefix_path.ps1'
+[26.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/hook/cmake_prefix_path.dsv'
+[26.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/hook/cmake_prefix_path.sh'
+[26.566s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib'
+[26.567s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/bin'
+[26.567s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/pkgconfig/tugas_drone.pc'
+[26.568s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/lib/python3.8/site-packages'
+[26.568s] Level 1:colcon.colcon_core.environment:checking '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/bin'
+[26.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.ps1'
+[26.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.dsv'
+[26.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.sh'
+[26.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.bash'
+[26.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/tugas_drone/package.zsh'
+[26.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rakan/MagangBayu24-PX4Simulation/install/tugas_drone/share/colcon-core/packages/tugas_drone)
+[26.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.706s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.854s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.854s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.854s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.903s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.019s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rakan/MagangBayu24-PX4Simulation/install/local_setup.ps1'
+[27.025s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rakan/MagangBayu24-PX4Simulation/install/_local_setup_util_ps1.py'
+[27.032s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rakan/MagangBayu24-PX4Simulation/install/setup.ps1'
+[27.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rakan/MagangBayu24-PX4Simulation/install/local_setup.sh'
+[27.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rakan/MagangBayu24-PX4Simulation/install/_local_setup_util_sh.py'
+[27.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rakan/MagangBayu24-PX4Simulation/install/setup.sh'
+[27.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rakan/MagangBayu24-PX4Simulation/install/local_setup.bash'
+[27.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rakan/MagangBayu24-PX4Simulation/install/setup.bash'
+[27.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rakan/MagangBayu24-PX4Simulation/install/local_setup.zsh'
+[27.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rakan/MagangBayu24-PX4Simulation/install/setup.zsh'
